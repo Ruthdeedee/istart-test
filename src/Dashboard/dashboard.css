@@ -1,0 +1,40 @@
+.d-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+.bar{
+    position: relative;
+    width: 100%;
+    
+}
+.taskbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    gap: 1rem;
+    width: 90%;
+    margin: auto 40px;
+}
+.search{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    font-size: 22px;
+}

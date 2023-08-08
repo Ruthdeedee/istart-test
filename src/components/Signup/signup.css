@@ -1,0 +1,83 @@
+
+.light-theme {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.logo{
+  transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.6px solid #DAE0E6;
+  padding: 3px 100px;
+  border-radius: 10px;
+  background: white;
+  margin: 15px auto;
+}
+.label{
+display: flex;
+margin-top: 20px;
+}
+.logo-container>:nth-child(2){
+  font-weight: 600;
+}
+
+
+.sign-in{
+  background-color: #4285F4;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+padding: 15px 150px;
+width: 100%;
+margin: auto;
+}
+
+.input {
+  margin: 5px 0;
+  padding: 10px 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  outline: none;
+
+}
+.input::placeholder{
+  color: #919BA7;
+}
+
+
+a {
+  text-decoration: none;
+}
+.check-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  gap:1;
+  
+}
+p{
+  font-weight: thin;
+}
+input[type='checkbox']:checked + .slider {
+  background-color: #2196f3;
+}
+
+input[type='checkbox']:checked + .slider:before {
+  transform: translateX(20px);
+}
